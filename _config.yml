@@ -1,0 +1,25 @@
+theme: jekyll-theme-minimal
+url: https://robmuth.github.io
+baseurl: /
+locale: en-US
+title: "Rob's Blog"
+timezone: Europe/Berlin
+markdown: kramdown
+collections:
+  category:
+    output: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Rob"
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
