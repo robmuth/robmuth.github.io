@@ -10,4 +10,4 @@ Welcome to my personal blog. Please have a look at my recent posts:
 </ul>
 
 ## Contact
-You can find me at [Keybase.io](https://keybase.io/rmuth).
+You can find me on [Keybase.io](https://keybase.io/rmuth)
