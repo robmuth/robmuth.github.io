@@ -60,10 +60,11 @@ contract MinimalVoting { /* The contract's name */
 ```
 
 
-## Next TODOs
+## Next Steps
 - Timebased ending
 - Throwing events
 - Adding a selfdestruct
+- Prevent double-voting
 
 [^1]: unsigned: only positive numbers
 [^2]: maximum number for uint256: 115792089237316195423570985008687907853269984665640564039457584007913129639935
