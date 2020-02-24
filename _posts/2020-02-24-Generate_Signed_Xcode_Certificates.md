@@ -1,6 +1,7 @@
 ---
-Title: Manually Generating Signed Xcode Certificates for App Store Distribution
-Category: iOS
+title: Manually Generating Signed Xcode Certificates for App Store Distribution
+category: iOS
+tags: [Xcode, iOS]
 ---
 
 Manually Generating Signed Xcode Certificates for App Store Distribution
@@ -22,4 +23,4 @@ Commercial Apple developer accounts can issue these certificates automatically, 
 
 2. Do the same for "App Store and Ad Hoc" **but with a new private key!** Do not reuse the first private key.
 
-[//]: # ( #Xcode #App #iOS )
+[//]: # ( #Xcode #iOS )
