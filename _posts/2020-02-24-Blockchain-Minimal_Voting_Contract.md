@@ -7,9 +7,9 @@ tags: [Solidity, Ethereum, Voting]
 Minimal Voting Scheme with Solidity
 =====================================
 The most basic voting contract, which allows to vote for a number in a specified range. Voters can vote as often as they wish for a number between $0 &le; \text{number} &le; \text{max}$.
-Because the contract uses unsigned[^1] integers for counting, the voting eventually ends once one number reaches $2^{256}-1$ votes (integers in Solidity have 256 bits[^2], unless otherwise specified, e.g., with uint8).
+Because the contract uses unsigned[^1] integers for counting, the voting eventually ends once one number reaches $2^{256}-1$ votes (integers in Solidity have 256 bits[^2] unless otherwise specified, e.g., uint8 has 8 bits).
 
-The results of the voting can be read by anybody, as the votes mapping is specified public[^public in Solidity only allows external accounts/contracts to read the variable. Unlike in Java/C++ it does not allow to write.].
+The results of the voting can be read by anybody, as the votes mapping is specified public[^3].
 
 > Disclaimer: This contract does not implement any voting standard like [ERC-1202](https://github.com/xinbenlv/eip-1202/blob/master/EIP-1202.md). It also does not implement [SafeMath](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/math/SafeMath.sol), due to its own check mechanisms (the panic switch).
 
@@ -65,7 +65,8 @@ contract MinimalVoting { /* The contract's name */
 - Throwing events
 - Adding a selfdestruct
 
-[^1]: only positive numbers
+[^1]: unsigned: only positive numbers
 [^2]: maximum number for uint256: 115792089237316195423570985008687907853269984665640564039457584007913129639935
+[^3]: public in Solidity only allows external accounts/contracts to read the variable. Unlike in Java/C++ it does not allow to write
 
 [//]: # ( #Solidity #Voting #Ethereum )
