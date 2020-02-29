@@ -17,12 +17,16 @@
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-  
+      </header>
+      
+      <section>
+
+      {{ content }}
+
+      </section>
+      
+      <footer>
         <div class="navbox">
           <h2>Recent Posts:</h2>
           {% for post in site.posts limit:5 %}
@@ -48,13 +52,7 @@
         <br />
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
-      </header>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
+        
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
