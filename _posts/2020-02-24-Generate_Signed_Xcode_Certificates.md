@@ -1,10 +1,10 @@
 ---
-title: Manually Generating Signed Xcode Certificates for App Store Distribution
+title: Manually Generate Signed Xcode Certificates for App Store Distribution
 category: iOS
 tags: [Xcode, iOS]
 ---
 
-Manually Generating Signed Xcode Certificates for App Store Distribution
+Manually Generate Signed Xcode Certificates for App Store Distribution
 ==========
 
 This guide shows you how to generate app store distribution certificates for Xcode manually, so you can share them with your team members and developers. 
