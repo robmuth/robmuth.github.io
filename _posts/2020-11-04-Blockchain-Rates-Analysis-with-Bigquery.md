@@ -4,7 +4,7 @@ category: Blockchain
 tags: [Analysis]
 ---
 
-Blog: Blockchain Analysis with Google BigQuery and Colaboratory
+Blockchain Analysis with Google BigQuery and Colaboratory
 ================================
 Blockchain analytics usually require fully synchronized nodes, which makes it sometimes quite challenging. Especially, if you want to analyze multiple different blockchains. Storage consumption, networking, and computational power are still major bottlenecks of blockchain technologies.
 
