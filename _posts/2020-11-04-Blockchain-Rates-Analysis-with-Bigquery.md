@@ -29,7 +29,10 @@ In the following Google Colaboratory Jupyter Notebook I demonstrate how to analy
 It uses a very simple SQL command which is explained in detail in the Colab notebook. Querying Bitcoin's average block generation rate, for example:
 
 ```sql
-SELECT AVG(UNIX_SECONDS(n.timestamp) - (SELECT UNIX_SECONDS(pre.timestamp) FROM `bigquery-public-data.crypto_bitcoin.blocks` pre WHERE pre.number = n.number - 1))
+SELECT 
+   AVG(UNIX_SECONDS(n.timestamp) - (SELECT UNIX_SECONDS(pre.timestamp) 
+      FROM `bigquery-public-data.crypto_bitcoin.blocks` pre WHERE pre.number = n.number - 1)
+   )
 FROM `bigquery-public-data.crypto_bitcoin.blocks` n
 WHERE n.number > 0
 ```
