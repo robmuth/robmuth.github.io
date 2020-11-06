@@ -34,6 +34,7 @@ ORDER BY month DESC -- Order by month (descending)
 **Plotting:**
 For plotting I prefer querying the data into a Jupyter Notebook. Here you can check out how to query SQL data in Google Colaboratory, transforming it into a Pandas Dataframe, and plot the results: [https://colab.research.google.com/drive/1BfYlPSC7nwG5JxGj13OxPFsQY7efXXI6?usp=sharing](https://colab.research.google.com/drive/1BfYlPSC7nwG5JxGj13OxPFsQY7efXXI6?usp=sharing)
 
-![Bitcoin outputs (06-11-2020)](/2020-11-06-Bitcoin-Outputs.png)
+Let's have a look:
+![Bitcoin outputs (06-11-2020)](/static/2020-11-06-Bitcoin-Outputs.png)
 
 [//]: # ( #Blockchain #Blog )
