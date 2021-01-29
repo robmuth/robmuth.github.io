@@ -1,13 +1,14 @@
 ---
 title: My PGP Pros and Cons
 category: Security/Privacy
+tags: [PGP]
 ---
 
 # My PGP Pros and Cons
 
 I first wanted to write an explanation why I won't extend my PGP keys anymore. Short story: it's so complicated that I always forget how it works. However, at the end, I've extended them and here is why PGP is damned but you should appreciate it.
 
-While I've collected a list of alternatives[^Threema, Keybase, Signal, Telegram, Proton Mail, iMessage (meh)] to get in touch with me with E2E encryption, I noticed that all alternatives suffer centralization. While I certainly don't need high security for my communications, I still feel comfortable when I have choice. Spoiler: Nobody has ever sent me a PGP encrypted email that actually needed encryption.
+While I've collected a list of alternatives (Threema, Keybase, Signal, Telegram, Proton Mail, iMessage) to get in touch with me with E2E encryption, I noticed that all alternatives suffer centralization. While I certainly don't need high security for my communications, I still feel comfortable when I have choice. Spoiler: Nobody has ever sent me a PGP encrypted email that actually needed encryption.
 
 The following pros and cons reflect my personal experiences.
 
