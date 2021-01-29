@@ -1,5 +1,5 @@
 ---
-title: Side Project: Count Words Notification with Git Diff
+title: "Side Project: Count Words Notification with Git Diff"
 category: Side-Project
 tags: [Git, Bash, Side]
 ---
