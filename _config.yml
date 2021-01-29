@@ -5,6 +5,8 @@ locale: en-US
 title: "Rob's Blog"
 timezone: Europe/Berlin
 markdown: kramdown
+plugins:
+  - jekyll-feed
 collections:
   category:
     output: true
