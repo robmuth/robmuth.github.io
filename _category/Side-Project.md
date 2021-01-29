@@ -1,4 +1,4 @@
 ---
-tag: Side Project
+tag: Side-Project
 permalink: "/category/Side-Project"
 ---
